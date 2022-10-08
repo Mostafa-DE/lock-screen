@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: auto;
+  width: 10rem;
+  zoom: 1.5;
+}
+
+.child {
+  width: 1rem;
+  height: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.hovered {
+  background-color: rgb(23, 235, 235);
+}
+
+.text {
+  text-align: center;
+  color: rgb(18, 124, 124);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0 0 0;
+}
+
+.btn button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fafafa;
+  border: 1px solid #333;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #fafafa;
+  color: #333;
+  transition: all 0.3s ease-out;
+}
